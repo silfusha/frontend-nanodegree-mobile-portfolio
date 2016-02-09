@@ -4,7 +4,7 @@
 function goAsyncStyle() {
 var resource = document.createElement('link');
 resource.setAttribute("rel", "stylesheet");
-resource.setAttribute("href","css/print.css");
+resource.setAttribute("href","css/style.css");
 resource.setAttribute("type","text/css");
 var head = document.getElementsByTagName('head')[0];
 head.appendChild(resource);
